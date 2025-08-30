@@ -17,9 +17,7 @@ tags:
 draft: false
 ---
 this is a summay
-Cut out summary from your post content here.
 
 <!--more-->
 
 The remaining content of your post.
-this is main part of blog
