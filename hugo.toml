@@ -1,7 +1,7 @@
 defaultContentLanguage = "zh"
 languageCode = "zh-Hans"
 title = "huanjian's blog"
-theme = "dream"
+theme = "hugo-theme-dream"
 author = "huojian"
 
 headerTitle = "huojian's blog"
