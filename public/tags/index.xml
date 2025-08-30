@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on huanjian&#39;s blog</title>
-    <link>http://localhost:1313/huojian-jan/huojian-jan.github.io/tags/</link>
+    <link>https://github.com/huojian-jan/huojian-jan.github.io/tags/</link>
     <description>Recent content in Tags on huanjian&#39;s blog</description>
     <generator>Hugo</generator>
     <language>zh-Hans</language>
     <lastBuildDate>Sat, 08 Mar 2025 14:20:10 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/huojian-jan/huojian-jan.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://github.com/huojian-jan/huojian-jan.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>随笔</title>
-      <link>http://localhost:1313/huojian-jan/huojian-jan.github.io/tags/%E9%9A%8F%E7%AC%94/</link>
+      <link>https://github.com/huojian-jan/huojian-jan.github.io/tags/%E9%9A%8F%E7%AC%94/</link>
       <pubDate>Sat, 08 Mar 2025 14:20:10 +0800</pubDate>
-      <guid>http://localhost:1313/huojian-jan/huojian-jan.github.io/tags/%E9%9A%8F%E7%AC%94/</guid>
+      <guid>https://github.com/huojian-jan/huojian-jan.github.io/tags/%E9%9A%8F%E7%AC%94/</guid>
       <description></description>
     </item>
     <item>
       <title>Windows技术</title>
-      <link>http://localhost:1313/huojian-jan/huojian-jan.github.io/tags/windows%E6%8A%80%E6%9C%AF/</link>
+      <link>https://github.com/huojian-jan/huojian-jan.github.io/tags/windows%E6%8A%80%E6%9C%AF/</link>
       <pubDate>Thu, 27 Feb 2025 14:17:40 +0800</pubDate>
-      <guid>http://localhost:1313/huojian-jan/huojian-jan.github.io/tags/windows%E6%8A%80%E6%9C%AF/</guid>
+      <guid>https://github.com/huojian-jan/huojian-jan.github.io/tags/windows%E6%8A%80%E6%9C%AF/</guid>
       <description></description>
     </item>
     <item>
       <title>WPF</title>
-      <link>http://localhost:1313/huojian-jan/huojian-jan.github.io/tags/wpf/</link>
+      <link>https://github.com/huojian-jan/huojian-jan.github.io/tags/wpf/</link>
       <pubDate>Thu, 27 Feb 2025 14:17:40 +0800</pubDate>
-      <guid>http://localhost:1313/huojian-jan/huojian-jan.github.io/tags/wpf/</guid>
+      <guid>https://github.com/huojian-jan/huojian-jan.github.io/tags/wpf/</guid>
       <description></description>
     </item>
     <item>
       <title>Git</title>
-      <link>http://localhost:1313/huojian-jan/huojian-jan.github.io/tags/git/</link>
+      <link>https://github.com/huojian-jan/huojian-jan.github.io/tags/git/</link>
       <pubDate>Sun, 16 Feb 2025 14:15:47 +0800</pubDate>
-      <guid>http://localhost:1313/huojian-jan/huojian-jan.github.io/tags/git/</guid>
+      <guid>https://github.com/huojian-jan/huojian-jan.github.io/tags/git/</guid>
       <description></description>
     </item>
     <item>
       <title>Code Review</title>
-      <link>http://localhost:1313/huojian-jan/huojian-jan.github.io/tags/code-review/</link>
+      <link>https://github.com/huojian-jan/huojian-jan.github.io/tags/code-review/</link>
       <pubDate>Tue, 11 Feb 2025 14:13:57 +0800</pubDate>
-      <guid>http://localhost:1313/huojian-jan/huojian-jan.github.io/tags/code-review/</guid>
+      <guid>https://github.com/huojian-jan/huojian-jan.github.io/tags/code-review/</guid>
       <description></description>
     </item>
     <item>
       <title>C&#43;&#43;</title>
-      <link>http://localhost:1313/huojian-jan/huojian-jan.github.io/tags/c&#43;&#43;/</link>
+      <link>https://github.com/huojian-jan/huojian-jan.github.io/tags/c&#43;&#43;/</link>
       <pubDate>Mon, 27 Jan 2025 14:11:44 +0800</pubDate>
-      <guid>http://localhost:1313/huojian-jan/huojian-jan.github.io/tags/c&#43;&#43;/</guid>
+      <guid>https://github.com/huojian-jan/huojian-jan.github.io/tags/c&#43;&#43;/</guid>
       <description></description>
     </item>
     <item>
       <title>RPA</title>
-      <link>http://localhost:1313/huojian-jan/huojian-jan.github.io/tags/rpa/</link>
+      <link>https://github.com/huojian-jan/huojian-jan.github.io/tags/rpa/</link>
       <pubDate>Sun, 15 Dec 2024 13:57:39 +0800</pubDate>
-      <guid>http://localhost:1313/huojian-jan/huojian-jan.github.io/tags/rpa/</guid>
+      <guid>https://github.com/huojian-jan/huojian-jan.github.io/tags/rpa/</guid>
       <description></description>
     </item>
     <item>
       <title>博客</title>
-      <link>http://localhost:1313/huojian-jan/huojian-jan.github.io/tags/%E5%8D%9A%E5%AE%A2/</link>
+      <link>https://github.com/huojian-jan/huojian-jan.github.io/tags/%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Sun, 15 Dec 2024 13:57:39 +0800</pubDate>
-      <guid>http://localhost:1313/huojian-jan/huojian-jan.github.io/tags/%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>https://github.com/huojian-jan/huojian-jan.github.io/tags/%E5%8D%9A%E5%AE%A2/</guid>
       <description></description>
     </item>
   </channel>
