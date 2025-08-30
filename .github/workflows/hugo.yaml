@@ -27,7 +27,7 @@ jobs:
         - name: Deploy Web
           uses: peaceiris/actions-gh-pages@v4
           with:
-              PERSONAL_TOKEN: ${{ secrets.huogo_token }}
+              PERSONAL_TOKEN: ${{ secrets.hugo_token }}
               EXTERNAL_REPOSITORY: huojian-jan/huojian-jan.github.io
               PUBLISH_BRANCH: main
               PUBLISH_DIR: ./public
