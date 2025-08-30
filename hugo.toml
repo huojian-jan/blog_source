@@ -1,0 +1,16 @@
+defaultContentLanguage = "zh"
+languageCode = "zh-Hans"
+title = "huanjian's blog"
+theme = "dream"
+author = "huojian"
+
+headerTitle = "huojian's blog"
+motto = "Talent is enduring patience."
+
+
+
+description = "The life record of huojian is presented here."
+avatar = "img/avatar.jpg"
+
+
+
