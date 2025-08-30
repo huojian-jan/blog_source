@@ -1,3 +1,4 @@
+baseurl = "https://github.com/huojian-jan/huojian-jan.github.io"
 defaultContentLanguage = "zh"
 languageCode = "zh-Hans"
 title = "huanjian's blog"
