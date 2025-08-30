@@ -1,37 +1,34 @@
-name: GitHub Pages
+name: deploy
 
+# 代码提交到main分支时触发github action
 on:
   push:
     branches:
-      - main # Set a branch to deploy
+      - main
 
 jobs:
   deploy:
-    runs-on: ubuntu-20.04
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-        with:
-          submodules: true # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
+        - name: Checkout
+          uses: actions/checkout@v4
+          with:
+              fetch-depth: 0
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: 0.147.4
-          # hugo extend or not
-          extended: true
+        - name: Setup Hugo
+          uses: peaceiris/actions-hugo@v3
+          with:
+              hugo-version: "latest"
+              extended: true
 
-      - name: Build
-        run: hugo --minify
+        - name: Build Web
+          run: hugo -D
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          # github_token: ${{ secrets.GITHUB_TOKEN }} # For publishing to the same repository as the source, not for a different repository
-          personal_token: ${{ secrets.hugo_token }}
-          external_repository: huojian-jan/huojian-jan.github.io # Set the target repository
-          publish_dir: ./public
-          publish_branch: main # Set the target branch
-          cname: xxx.com # If you have a custom domain
+        - name: Deploy Web
+          uses: peaceiris/actions-gh-pages@v4
+          with:
+              PERSONAL_TOKEN: ${{ secrets.huogo_token }}
+              EXTERNAL_REPOSITORY: huojian-jan/huojian-jan.github.io
+              PUBLISH_BRANCH: main
+              PUBLISH_DIR: ./public
+              commit_message: auto deploy
