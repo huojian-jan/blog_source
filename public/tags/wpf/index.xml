@@ -10,23 +10,23 @@
     <atom:link href="http://localhost:1313/huojian-jan/huojian-jan.github.io/tags/wpf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WPF上实现任务栏闪烁</title>
-      <link>http://localhost:1313/huojian-jan/huojian-jan.github.io/posts/wpf%E4%B8%8A%E5%AE%9E%E7%8E%B0%E4%BB%BB%E5%8A%A1%E6%A0%8F%E9%97%AA%E7%83%81/</link>
+      <link>http://localhost:1313/huojian-jan/huojian-jan.github.io/content/posts/wpf%E4%B8%8A%E5%AE%9E%E7%8E%B0%E4%BB%BB%E5%8A%A1%E6%A0%8F%E9%97%AA%E7%83%81/</link>
       <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/huojian-jan/huojian-jan.github.io/posts/wpf%E4%B8%8A%E5%AE%9E%E7%8E%B0%E4%BB%BB%E5%8A%A1%E6%A0%8F%E9%97%AA%E7%83%81/</guid>
+      <guid>http://localhost:1313/huojian-jan/huojian-jan.github.io/content/posts/wpf%E4%B8%8A%E5%AE%9E%E7%8E%B0%E4%BB%BB%E5%8A%A1%E6%A0%8F%E9%97%AA%E7%83%81/</guid>
       <description></description>
     </item>
     <item>
       <title>WPF中的Application类</title>
-      <link>http://localhost:1313/huojian-jan/huojian-jan.github.io/posts/wpf%E4%B8%AD%E7%9A%84application%E7%B1%BB/</link>
+      <link>http://localhost:1313/huojian-jan/huojian-jan.github.io/content/posts/wpf%E4%B8%AD%E7%9A%84application%E7%B1%BB/</link>
       <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/huojian-jan/huojian-jan.github.io/posts/wpf%E4%B8%AD%E7%9A%84application%E7%B1%BB/</guid>
+      <guid>http://localhost:1313/huojian-jan/huojian-jan.github.io/content/posts/wpf%E4%B8%AD%E7%9A%84application%E7%B1%BB/</guid>
       <description></description>
     </item>
     <item>
       <title>WPF程序的两种启动方式</title>
-      <link>http://localhost:1313/huojian-jan/huojian-jan.github.io/posts/wpf%E7%A8%8B%E5%BA%8F%E7%9A%84%E4%B8%A4%E7%A7%8D%E5%90%AF%E5%8A%A8%E6%96%B9%E5%BC%8F/</link>
+      <link>http://localhost:1313/huojian-jan/huojian-jan.github.io/content/posts/wpf%E7%A8%8B%E5%BA%8F%E7%9A%84%E4%B8%A4%E7%A7%8D%E5%90%AF%E5%8A%A8%E6%96%B9%E5%BC%8F/</link>
       <pubDate>Sun, 29 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/huojian-jan/huojian-jan.github.io/posts/wpf%E7%A8%8B%E5%BA%8F%E7%9A%84%E4%B8%A4%E7%A7%8D%E5%90%AF%E5%8A%A8%E6%96%B9%E5%BC%8F/</guid>
+      <guid>http://localhost:1313/huojian-jan/huojian-jan.github.io/content/posts/wpf%E7%A8%8B%E5%BA%8F%E7%9A%84%E4%B8%A4%E7%A7%8D%E5%90%AF%E5%8A%A8%E6%96%B9%E5%BC%8F/</guid>
       <description></description>
     </item>
   </channel>
