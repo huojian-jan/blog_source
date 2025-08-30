@@ -1,6 +1,6 @@
 ---
 title: 异常打Error日志,Review的时候被喷了
-date: 2025-02-11T14:13:57+08:00
+date: 2025-02-11
 author: 火箭
 cover: https://cdn.pixabay.com/photo/2023/11/15/13/55/woman-8390124_1280.jpg
 categories:

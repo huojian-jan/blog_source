@@ -1,6 +1,6 @@
 ---
 title: Windows上实现子进程随父进程退出的解决方案
-date: 2025-01-26T14:08:07+08:00
+date: 2025-01-26
 author: 火箭
 cover: https://cdn.pixabay.com/photo/2024/08/01/18/20/girl-8937918_1280.png
 categories:

@@ -1,6 +1,6 @@
 ---
 title: CPP中的字符串变量的sz前缀是什么意思
-date: 2025-01-27T14:11:44+08:00
+date: 2025-01-27
 author: 火箭
 cover: https://cdn.pixabay.com/photo/2023/09/17/14/40/ai-generated-8258728_1280.png 
 categories:

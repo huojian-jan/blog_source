@@ -1,6 +1,6 @@
 ---
 title: 我每天都在用的git命令
-date: 2025-02-16T14:15:47+08:00
+date: 2025-02-16
 author: 火箭
 cover: https://cdn.pixabay.com/photo/2024/08/27/13/55/ai-generated-9001692_1280.jpg
 categories:

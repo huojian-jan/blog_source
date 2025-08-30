@@ -1,7 +1,6 @@
 ---
 title: 用RPA订阅了1000+的独立博客的RSS
-date: 2024-12-15T13:57:39+08:00
-lastmod: 2024-12-15T13:57:39+08:00
+date: 2024-12-15
 author: 火箭
 cover: https://cdn.pixabay.com/photo/2023/09/15/19/41/ai-generated-8255463_1280.jpg
 categories:

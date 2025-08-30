@@ -1,6 +1,6 @@
 ---
 title: WPF程序的两种启动方式
-date: 2024-12-29T14:06:22+08:00
+date: 2024-12-29
 author: 火箭
 cover: https://cdn.pixabay.com/photo/2024/07/27/10/55/ai-generated-8925261_1280.jpg
 categories:
