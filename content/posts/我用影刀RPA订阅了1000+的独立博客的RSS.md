@@ -34,4 +34,3 @@ draft: false
     5. 关闭当前网页
     6. 继续处理下一个博客
 
-> Beauty lies in the harmony of form and function

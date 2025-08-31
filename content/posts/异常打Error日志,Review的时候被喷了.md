@@ -2,7 +2,7 @@
 title: 异常打Error日志,Review的时候被喷了
 date: 2025-02-11
 author: 火箭
-cover: https://cdn.pixabay.com/photo/2023/11/15/13/55/woman-8390124_1280.jpg
+cover: https://cdn.pixabay.com/photo/2023/10/04/17/00/ai-generated-8294107_1280.png
 categories:
   - 技术博客
 tags:

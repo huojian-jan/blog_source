@@ -1,0 +1,4 @@
+# Go to https://ionic.io/ionicons to find available icons.
+socials = [
+  { href = "https://github.com/huojian-jan", target = "_blank", icon = "logo-github", title = "GitHub" },
+]

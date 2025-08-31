@@ -2,7 +2,7 @@
 title: WPF中的Application类
 date: 2025-01-12
 author: 火箭
-cover: https://cdn.pixabay.com/photo/2023/10/04/17/44/ai-generated-8294192_1280.png
+cover: https://cdn.pixabay.com/photo/2024/09/05/05/33/ai-generated-9023805_1280.jpg
 categories:
   - 技术博客
 tags:

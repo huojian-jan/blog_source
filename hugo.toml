@@ -27,7 +27,6 @@ showTableOfContents = true
 showSummaryCoverInPost = true
 imageZoomableInPost = true
 showPrevNextPost = true
-# reorderShares = ["x", "facebook", "whatsapp"]
 
 [params.navItems]
 github = { href = "https://github.com/huojian-jan", target = "_blank", icon = "logo-github", title = "GitHub" }

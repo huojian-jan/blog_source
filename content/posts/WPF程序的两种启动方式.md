@@ -2,7 +2,7 @@
 title: WPF程序的两种启动方式
 date: 2024-12-29
 author: 火箭
-cover: https://cdn.pixabay.com/photo/2024/07/27/10/55/ai-generated-8925261_1280.jpg
+cover: https://cdn.pixabay.com/photo/2024/02/18/13/13/ai-generated-8581182_1280.jpg
 categories:
   - 技术博客
 tags:
@@ -144,4 +144,3 @@ internal int RunInternal(Window window)
 
 > Logic will get you from A to B. Imagination will take you everywhere.
 >
-The remaining content of your post.
