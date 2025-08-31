@@ -3,15 +3,43 @@ defaultContentLanguage = "zh"
 languageCode = "zh-Hans"
 title = "huanjian's blog"
 theme = "dream"
-author = "huojian"
 
-headerTitle = "huojian's blog"
+enableGitInfo = true
+enableRobotsTXT = true
+
+hasCJKLanguage = true
+
+author = "huojian"
+description = "The life record of huojian is presented here."
+avatar = "https://github.com/huojian-jan.png"
+headerTitle = "huojian's Blog"
 motto = "Talent is enduring patience."
 
+rss = true
+utterancesRepo = "huojian-jan/huojian-jan.github.io"
+
+# options
+stickyNav = true
+reorderNavItems = ["about", "search", "github", "posts", "categories", "tags", "rss"]
+collapseNavItems = ["posts", "categories", "tags", "rss"]
+# noDefaultSummaryCover = true
+showTableOfContents = true
+showSummaryCoverInPost = true
+imageZoomableInPost = true
+showPrevNextPost = true
+# reorderShares = ["x", "facebook", "whatsapp"]
+
+[params.navItems]
+github = { href = "https://github.com/huojian-jan", target = "_blank", icon = "logo-github", title = "GitHub" }
+
+[params.advanced]
+customCSS = ["css/custom.css"]
+# customJS = []
 
 
-description = "The life record of huojian is presented here."
-avatar = "img/avatar.jpg"
-
+[params.experimental]
+jsDate = true
+jsDateFormat = "yyyy年MM月dd日"
+# jsDateFormat = "yyyy年MM月dd日，cccc"
 
 

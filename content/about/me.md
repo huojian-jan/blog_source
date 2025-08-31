@@ -1,9 +1,9 @@
 ---
 title: Me
 date: 2025-08-30
-draft: true
+draft: false
 ---
 
-Hi, my name is Yue Yang.
- 
-This is my blog.
+Hi，这里是 **g1eny0ung** 的博客。**g1eny0ung**（或 **g1en**）是我在互联网上经常使用的名字。
+
+我是一个热衷于开源的软件工程师，在这里我会记录一些关于技术或者生活上的事情。欢迎你通过评论或者邮件与我交流。
