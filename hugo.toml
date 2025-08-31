@@ -1,8 +1,8 @@
-baseURL = "https://huojian-jan.github.io/huojian-jan/"
+baseURL = "https://huojian-jan.github.io/"
 defaultContentLanguage = "zh"
 languageCode = "zh-Hans"
 title = "huanjian's blog"
-theme = "dream"
+theme = "dream1"
 author = "huojian"
 
 headerTitle = "huojian's blog"
