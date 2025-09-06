@@ -440,47 +440,47 @@
 <li>检查 UI 线程</li>
 <li>this.RunDispatcher((object) null);</li>
 </ol>
-<pre tabindex="0"><code>public int Run()
-{
-    EventTrace.EasyTraceEvent((EventTrace.Keyword) 3, (EventTrace.Event) 3);
-    return this.Run((Window) null);
-}
-public int Run(Window window)
-{
-    this.VerifyAccess();
-    return this.RunInternal(window);
-}
-public void VerifyAccess()
-{
-    if (this.Thread!= Thread.CurrentThread;)
-        throw new InvalidOperationException(MS.Internal.WindowsBase.SR.Get(nameof (VerifyAccess)));
-}
-internal int RunInternal(Window window)
-{
-    this.VerifyAccess();
-    EventTrace.EasyTraceEvent((EventTrace.Keyword) 3, (EventTrace.Event) 3);
-    if (this._appIsShutdown)
-        throw new InvalidOperationException(SR.Format(SR.CannotCallRunMultipleTimes, (object) ((object) this).GetType().FullName));
-    if (window!= null)
-    {
-        if (!((DispatcherObject) window).CheckAccess())
-            throw new ArgumentException(SR.Format(SR.WindowPassedShouldBeOnApplicationThread, (object) ((object) window).GetType().FullName, (object) ((object) this).GetType().FullName));
-        if (!this.WindowsInternal.HasItem(window))
-            this.WindowsInternal.Add(window);
-        if (this.MainWindow == null)
-            this.MainWindow = window;
-        if (window.Visibility!= Visibility.Visible)
-            this.Dispatcher.BeginInvoke((DispatcherPriority) 10, (Delegate) (obj =&gt;
-            {
-                (obj as Window).Show();
-                return (object) null;
-            }), (object) window);
-    }
-    this.EnsureHwndSource();
-    this.RunDispatcher((object) null);
-    return this._exitCode;
-}
-</code></pre><h2 id="带-main-函数的方式">带 Main 函数的方式</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">int</span> Run()
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    EventTrace.EasyTraceEvent((EventTrace.Keyword) <span style="color:#ae81ff">3</span>, (EventTrace.Event) <span style="color:#ae81ff">3</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">this</span>.Run((Window) <span style="color:#66d9ef">null</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">int</span> Run(Window window)
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">this</span>.VerifyAccess();
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">this</span>.RunInternal(window);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> VerifyAccess()
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#66d9ef">this</span>.Thread!= Thread.CurrentThread;)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">throw</span> <span style="color:#66d9ef">new</span> InvalidOperationException(MS.Internal.WindowsBase.SR.Get(nameof (VerifyAccess)));
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">internal</span> <span style="color:#66d9ef">int</span> RunInternal(Window window)
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">this</span>.VerifyAccess();
+</span></span><span style="display:flex;"><span>    EventTrace.EasyTraceEvent((EventTrace.Keyword) <span style="color:#ae81ff">3</span>, (EventTrace.Event) <span style="color:#ae81ff">3</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#66d9ef">this</span>._appIsShutdown)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">throw</span> <span style="color:#66d9ef">new</span> InvalidOperationException(SR.Format(SR.CannotCallRunMultipleTimes, (<span style="color:#66d9ef">object</span>) ((<span style="color:#66d9ef">object</span>) <span style="color:#66d9ef">this</span>).GetType().FullName));
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (window!= <span style="color:#66d9ef">null</span>)
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (!((DispatcherObject) window).CheckAccess())
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">throw</span> <span style="color:#66d9ef">new</span> ArgumentException(SR.Format(SR.WindowPassedShouldBeOnApplicationThread, (<span style="color:#66d9ef">object</span>) ((<span style="color:#66d9ef">object</span>) window).GetType().FullName, (<span style="color:#66d9ef">object</span>) ((<span style="color:#66d9ef">object</span>) <span style="color:#66d9ef">this</span>).GetType().FullName));
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (!<span style="color:#66d9ef">this</span>.WindowsInternal.HasItem(window))
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">this</span>.WindowsInternal.Add(window);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (<span style="color:#66d9ef">this</span>.MainWindow == <span style="color:#66d9ef">null</span>)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">this</span>.MainWindow = window;
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (window.Visibility!= Visibility.Visible)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">this</span>.Dispatcher.BeginInvoke((DispatcherPriority) <span style="color:#ae81ff">10</span>, (Delegate) (obj =&gt;
+</span></span><span style="display:flex;"><span>            {
+</span></span><span style="display:flex;"><span>                (obj <span style="color:#66d9ef">as</span> Window).Show();
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">return</span> (<span style="color:#66d9ef">object</span>) <span style="color:#66d9ef">null</span>;
+</span></span><span style="display:flex;"><span>            }), (<span style="color:#66d9ef">object</span>) window);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">this</span>.EnsureHwndSource();
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">this</span>.RunDispatcher((<span style="color:#66d9ef">object</span>) <span style="color:#66d9ef">null</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">this</span>._exitCode;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="带-main-函数的方式">带 Main 函数的方式</h2>
 <p>新建一个名为 WpfApp2 的 WPF 程序，此程序默认包含两个类：</p>
 <ol>
 <li>App.xaml
@@ -495,17 +495,17 @@ internal int RunInternal(Window window)
 </li>
 </ol>
 <p>接着，删除 App.xaml 和 App.cs 类，并添加 Program.cs 文件，添加 Main 函数，如下：</p>
-<pre tabindex="0"><code>    public class Program
-    {
-        [STAThread]
-        public static void Main(string[] args)
-        {
-            var app = new Application();
-            app.StartupUri = new System.Uri(&#34;MainWindow.xaml&#34;, System.UriKind.Relative);
-            app.Run();
-        }
-    }
-</code></pre><p>其中最为关键的是 STAThread 这个特性，它声明以单线程的方式启动。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Program</span>
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">        [STAThread]</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> Main(<span style="color:#66d9ef">string</span>[] args)
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">var</span> app = <span style="color:#66d9ef">new</span> Application();
+</span></span><span style="display:flex;"><span>            app.StartupUri = <span style="color:#66d9ef">new</span> System.Uri(<span style="color:#e6db74">&#34;MainWindow.xaml&#34;</span>, System.UriKind.Relative);
+</span></span><span style="display:flex;"><span>            app.Run();
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div><p>其中最为关键的是 STAThread 这个特性，它声明以单线程的方式启动。</p>
 <h2 id="总结">总结</h2>
 <p>这两种方式在本质上实则相同，因为第一种方式在编译完成后，也会转化为第二种写法。相较而言，第二种方式更为灵活，在构造 app 对象之后，能够注册 app 各种生命周期变化的事件，进而开展诸多操作，例如：加载资源文件、确保程序的单例运行、请求接口等等。</p>
 

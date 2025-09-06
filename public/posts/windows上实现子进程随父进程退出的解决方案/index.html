@@ -307,7 +307,7 @@
   <meta itemprop="name" content="Windows上实现子进程随父进程退出的解决方案">
   <meta itemprop="datePublished" content="2025-01-26T00:00:00+00:00">
   <meta itemprop="dateModified" content="2025-01-26T00:00:00+00:00">
-  <meta itemprop="wordCount" content="1208">
+  <meta itemprop="wordCount" content="1202">
   <meta itemprop="keywords" content="Windows技术">
 
       <header>
@@ -580,8 +580,7 @@
 来搜索Ctrlc就能看到，PyCharm的安装包自带了一个发送Ctrl_C信号的程序。命令行启动该程序 把需要终止的进程Pid传给程序，就可以做到终止这个进程。</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sendctrlc.x64.B02191CB70385B094C410A8C27775ABA.exe <span style="color:#ae81ff">123</span>
 </span></span></code></pre></div><p><strong>注意</strong>：部分程序可能会对Ctrl_C信号做了拦截，这种情况下发送Ctrl_C可能无法终止该进程。可以加一个兜底的逻辑，如果Ctrl_C没有生效的情况下，可以补一刀强杀逻辑。</p>
-<p><strong>发送信号的方式有一个好处是，程序不会立刻退出，他又机会执行一些善后逻辑。比如，Python程序中注册的atexit的钩子函数都有机会执行完。</strong></p>
-<p>The remaining content of your post.</p>
+<p><strong>发送信号的方式有一个好处是，程序不会立刻退出，他有机会执行一些善后逻辑。比如，Python程序中注册的atexit的钩子函数都有机会执行完。</strong></p>
 
         
       </section>

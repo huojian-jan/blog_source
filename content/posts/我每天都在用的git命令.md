@@ -79,4 +79,4 @@ pick c7  # 保留
 ```
 最后执行`git rebase master`与主分支同步。
 
-The remaining content of your post.
+> You only live once, but if you do it right, once is enough.

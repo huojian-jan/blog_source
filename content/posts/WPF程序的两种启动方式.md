@@ -67,7 +67,7 @@ namespace WpfApp1 {
 1. 检查 UI 线程
 2. this.RunDispatcher((object) null);
 
-```
+```csharp
 public int Run()
 {
     EventTrace.EasyTraceEvent((EventTrace.Keyword) 3, (EventTrace.Event) 3);
@@ -122,7 +122,7 @@ internal int RunInternal(Window window)
 
 接着，删除 App.xaml 和 App.cs 类，并添加 Program.cs 文件，添加 Main 函数，如下：
 
-```
+```csharp
     public class Program
     {
         [STAThread]

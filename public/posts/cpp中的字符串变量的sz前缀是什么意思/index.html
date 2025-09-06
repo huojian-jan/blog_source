@@ -307,7 +307,7 @@
   <meta itemprop="name" content="CPP中的字符串变量的sz前缀是什么意思">
   <meta itemprop="datePublished" content="2025-01-27T00:00:00+00:00">
   <meta itemprop="dateModified" content="2025-01-27T00:00:00+00:00">
-  <meta itemprop="wordCount" content="575">
+  <meta itemprop="wordCount" content="391">
   <meta itemprop="keywords" content="C&#43;&#43;">
 
       <header>
@@ -317,7 +317,7 @@
             <span data-format="luxon">2025-01-27T00:00:00Z</span>
           
 
-          | <span>2分钟阅读</span>
+          | <span>1分钟阅读</span>
 
           
           | <span>更新于
@@ -391,8 +391,7 @@
 <h2 id="发现命名惯例">发现命名惯例</h2>
 <p>在深入研究UltraVNC源码时，我注意到了一个有趣的命名模式：<strong>几乎所有的字符串变量都以&quot;sz&quot;作为前缀</strong>，例如：</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">char</span><span style="color:#f92672">*</span> szCmdLine <span style="color:#f92672">=</span> szCmdLine2;
-</span></span></code></pre></div><p>这种命名方式在Windows API编程中相当常见，但在现代C++开发中已经较少使用。</p>
-<h2 id="sz前缀的由来">&ldquo;sz&quot;前缀的由来</h2>
+</span></span></code></pre></div><h2 id="sz前缀的由来">&ldquo;sz&quot;前缀的由来</h2>
 <p>通过查阅资料，我在<a href="https://softwareengineering.stackexchange.com/questions/450259/why-is-the-term-string-so-often-abbreviated-as-sz" target="_blank">StackExchange</a>
 上找到了答案：</p>
 <p>&ldquo;sz&quot;代表&quot;zero-terminated string&rdquo;（以零结尾的字符串）。这个命名约定源于：</p>
@@ -401,15 +400,12 @@
 <li>&ldquo;sz&quot;是&quot;string zero&quot;的缩写</li>
 <li>这种命名法属于匈牙利命名法的一种应用</li>
 </ol>
-<h2 id="现代c中的考量">现代C++中的考量</h2>
-<p>虽然这种命名方式有其历史价值，但在现代C++开发中：</p>
-<ol>
-<li>更推荐使用std::string而非C风格字符串</li>
-<li>类型系统已经足够强大，不需要通过前缀标识类型</li>
-<li>过度使用匈牙利命名法可能降低代码可读性</li>
-</ol>
-<p>不过，在维护遗留代码或与Windows API交互时，理解这种命名惯例仍然很有价值。</p>
-<p>The remaining content of your post.</p>
+
+
+
+  <blockquote>
+    <p>So many books,so little time</p>
+  </blockquote>
 
         
       </section>

@@ -23,8 +23,6 @@ draft: false
 char* szCmdLine = szCmdLine2;
 ```
 
-这种命名方式在Windows API编程中相当常见，但在现代C++开发中已经较少使用。
-
 ## "sz"前缀的由来
 
 通过查阅资料，我在[StackExchange](https://softwareengineering.stackexchange.com/questions/450259/why-is-the-term-string-so-often-abbreviated-as-sz)上找到了答案：
@@ -34,14 +32,4 @@ char* szCmdLine = szCmdLine2;
 2. "sz"是"string zero"的缩写
 3. 这种命名法属于匈牙利命名法的一种应用
 
-## 现代C++中的考量
-
-虽然这种命名方式有其历史价值，但在现代C++开发中：
-1. 更推荐使用std::string而非C风格字符串
-2. 类型系统已经足够强大，不需要通过前缀标识类型
-3. 过度使用匈牙利命名法可能降低代码可读性
-
-不过，在维护遗留代码或与Windows API交互时，理解这种命名惯例仍然很有价值。
-
-
-The remaining content of your post.
+> So many books,so little time
