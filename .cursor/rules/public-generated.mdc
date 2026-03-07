@@ -1,0 +1,12 @@
+---
+description: public 目录为 Hugo 自动生成，禁止修改
+globs: public/**
+alwaysApply: false
+---
+
+# public 目录
+
+`public/` 下的文件由 Hugo 在构建时自动生成（如 `hugo`、`hugo server`），**不应手动编辑**。
+
+- 修改站点内容请改 `content/`、模板、主题等源文件，再重新构建。
+- 若对话中涉及 `public/` 内路径，仅做只读参考，不写入、不删除该目录下文件。

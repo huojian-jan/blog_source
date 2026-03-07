@@ -1,0 +1,6 @@
+# Hugo 构建输出
+public/
+resources/_gen/
+
+# .cursor/ 需要跟踪，若被全局忽略则在此取消
+!.cursor/
