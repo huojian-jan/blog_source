@@ -21,7 +21,9 @@
 
   <body x-data="{
     flip: false,
-  }">
+    isSticky: false,
+  }"
+  x-init="window.addEventListener('scroll', () => { isSticky = window.scrollY > 30 })">
     <!-- If backgroundImage defined -->
     <div id="dream-global-bg"></div>
 

@@ -9,7 +9,7 @@ tags:
   - WPF
 draft: false
 slug: "two-startup-methods-of-wpf-application"
-description: "详细介绍WPF程序的两种启动方式：默认的App.xaml方式和带有Main函数的自定义启动方式。通过反编译源码分析其内部原理，并对比两种方式的灵活性和适用场景。"
+description: "WPF 程序默认靠 App.xaml 启动，但如果我们想自己接管入口点该怎么办？通过反编译看了下底层原理，其实完全可以自己写个 Main 函数来启动，还能做更多自定义的初始化工作。"
 keywords:
   - WPF
   - WPF启动方式

@@ -10,7 +10,8 @@ alwaysApply: false
 
 ## 结构与排版
 
-- **Frontmatter**：保留 title、date、author、cover、categories、tags、draft；需要摘要时用 `<!--more-->`。
+- **Frontmatter**：保留 title、date、author、cover、categories、tags、draft、description；需要摘要时用 `<!--more-->`。
+- **SEO Description**：`description` 字段要平衡 SEO 和真实写作风格。**拒绝机器味**（如避免使用“本文深度剖析”、“分享”、“详细介绍”、“探讨了”等刻板句式）。用第一人称口语化表达，像跟朋友聊天一样直接引入话题，例如用提问、经历分享或场景描述开头，但要自然包含核心关键词。
 - **层级**：用 `##` / `###` 分段，避免单一大长段。
 - **空行**：段间至多 1 空行；列表、代码块前后各 1 空行。
 - **列表**：用 `-`，列表前加一句总起或小标题；可对要点用 **加粗**。

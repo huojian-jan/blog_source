@@ -1,44 +1,44 @@
-baseURL = "https://huojian-jan.github.io/"
+baseURL = "https://huojian.tech/"
 defaultContentLanguage = "zh"
 languageCode = "zh-Hans"
-title = "huanjian's blog"
+title = "火箭的博客"
 theme = "dream"
 
 enableGitInfo = true
 enableRobotsTXT = true
-
 hasCJKLanguage = true
 
-author = "huojian"
-description = "The life record of huojian is presented here."
-avatar = "https://github.com/huojian-jan.png"
-headerTitle = "huojian's Blog"
-motto = "Talent is enduring patience."
+[params]
+  author = "huojian"
+  description = "huojian 的个人博客，记录技术沉淀、学习笔记与生活碎片。"
+  avatar = "https://github.com/huojian-jan.png"
+  headerTitle = "火箭的博客"
+  motto = "Talent is enduring patience."
 
-rss = true
-utterancesRepo = "huojian-jan/huojian-jan.github.io"
+  lightTheme = "emerald"
+  darkTheme = "forest"
 
-# options
-stickyNav = true
-reorderNavItems = ["about", "search", "github", "posts", "categories", "tags", "rss"]
-collapseNavItems = ["posts", "categories", "tags", "rss"]
-# noDefaultSummaryCover = true
-showTableOfContents = true
-showSummaryCoverInPost = true
-imageZoomableInPost = true
-showPrevNextPost = true
+  rss = true
+  utterancesRepo = "huojian-jan/huojian-jan.github.io"
+
+  # options
+  stickyNav = true
+  reorderNavItems = ["about", "search", "github", "posts", "categories", "tags", "rss"]
+  collapseNavItems = ["posts", "categories", "tags", "rss"]
+  # noDefaultSummaryCover = true
+  showTableOfContents = true
+  showSummaryCoverInPost = true
+  imageZoomableInPost = true
+  showPrevNextPost = true
 
 [params.navItems]
-github = { href = "https://github.com/huojian-jan", target = "_blank", icon = "logo-github", title = "GitHub" }
+  github = { href = "https://github.com/huojian-jan", target = "_blank", icon = "logo-github", title = "GitHub" }
 
 [params.advanced]
-customCSS = ["css/custom.css"]
-# customJS = []
-
+  customCSS = ["css/custom.css"]
+  # customJS = []
 
 [params.experimental]
-jsDate = true
-jsDateFormat = "yyyy年MM月dd日"
-# jsDateFormat = "yyyy年MM月dd日，cccc"
-
-
+  jsDate = true
+  jsDateFormat = "yyyy年MM月dd日"
+  # jsDateFormat = "yyyy年MM月dd日，cccc"

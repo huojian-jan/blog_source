@@ -9,7 +9,7 @@ tags:
   - code review
 draft: false
 slug: "error-log-level-review"
-description: "分享一次关于代码中异常捕获时日志级别的Code Review讨论。探讨了何时应该使用Error、Warning和Info级别的日志，并结合Stack Overflow高票回答提供了实用的日志级别使用最佳实践。"
+description: "代码里捕获到异常就该打 Error 日志吗？最近在 Code Review 时因为这个被吐槽了。查了一下 Stack Overflow 的高赞回答，重新梳理了一下 Error、Warning 和 Info 到底该怎么用。"
 keywords:
   - 日志级别
   - Code Review

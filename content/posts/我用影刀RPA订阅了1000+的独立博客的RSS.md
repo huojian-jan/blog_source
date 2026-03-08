@@ -12,7 +12,7 @@ tags:
 # math: true
 draft: false
 slug: "subscribe-to-1000-independent-blogs-rss-with-rpa"
-description: "介绍如何使用影刀RPA自动化工具，结合InoReader，批量订阅超过1000个优秀的中文独立博客RSS源。分享了具体的自动化脚本开发思路和步骤，大幅节省手动订阅时间。"
+description: "手动订阅 1000 多个独立博客的 RSS 简直是体力活。于是我写了个影刀 RPA 脚本，让它帮我在 InoReader 里自动跑完这上千个订阅流程，省下来的时间刚好能多写两行代码。"
 keywords:
   - RPA
   - 博客订阅

@@ -1,33 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>生活 on huanjian&#39;s blog</title>
+    <title>生活 on 火箭的博客</title>
     <link>http://localhost:1313/categories/%E7%94%9F%E6%B4%BB/</link>
-    <description>Recent content in 生活 on huanjian&#39;s blog</description>
+    <description>Recent content in 生活 on 火箭的博客</description>
     <generator>Hugo</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Fri, 12 Sep 2025 13:10:37 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 19 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>我意识到我有收集癖并开始克服它</title>
+      <link>http://localhost:1313/posts/overcome-digital-hoarding/</link>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/overcome-digital-hoarding/</guid>
+      <description>&lt;p&gt;我有一个习惯，接触到一些新的概念或者有意思的工具时，会马上把这个东西记录到我的TODO清单中，目的是为了以后去了解一下。我一直以为这是我的一个“优点”——保持好奇心和求知欲。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>我们家开始记账一年的感受</title>
-      <link>http://localhost:1313/posts/%E6%88%91%E4%BB%AC%E5%AE%B6%E5%BC%80%E5%A7%8B%E8%AE%B0%E8%B4%A61%E5%B9%B4%E7%9A%84%E6%84%9F%E5%8F%97/</link>
+      <link>http://localhost:1313/posts/feelings-of-keeping-accounts-for-a-year/</link>
       <pubDate>Fri, 12 Sep 2025 13:10:37 +0800</pubDate>
-      <guid>http://localhost:1313/posts/%E6%88%91%E4%BB%AC%E5%AE%B6%E5%BC%80%E5%A7%8B%E8%AE%B0%E8%B4%A61%E5%B9%B4%E7%9A%84%E6%84%9F%E5%8F%97/</guid>
+      <guid>http://localhost:1313/posts/feelings-of-keeping-accounts-for-a-year/</guid>
       <description>&lt;p&gt;用飞书表格记录了和老婆两个人一年的家庭开销。&lt;/p&gt;</description>
     </item>
     <item>
       <title>洗车 vs 理发</title>
-      <link>http://localhost:1313/posts/%E6%B4%97%E8%BD%A6_%E7%90%86%E5%8F%91/</link>
+      <link>http://localhost:1313/posts/car-wash-vs-haircut/</link>
       <pubDate>Tue, 22 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/%E6%B4%97%E8%BD%A6_%E7%90%86%E5%8F%91/</guid>
+      <guid>http://localhost:1313/posts/car-wash-vs-haircut/</guid>
       <description>&lt;p&gt;昨晚花 39 元剪了头发，今早花 50 元洗了车（会员价 25 元）,作为一个对两个行业都不太懂的人，我简单做了一下对比。&lt;/p&gt;</description>
     </item>
     <item>
       <title>我从工程管理专业成功转码的经历</title>
-      <link>http://localhost:1313/posts/%E6%88%91%E4%BB%8E%E5%B7%A5%E7%A8%8B%E7%AE%A1%E7%90%86%E4%B8%93%E4%B8%9A%E6%88%90%E5%8A%9F%E8%BD%AC%E7%A0%81%E7%9A%84%E7%BB%8F%E5%8E%86/</link>
+      <link>http://localhost:1313/posts/successful-career-switch-from-engineering-management-to-coding/</link>
       <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/%E6%88%91%E4%BB%8E%E5%B7%A5%E7%A8%8B%E7%AE%A1%E7%90%86%E4%B8%93%E4%B8%9A%E6%88%90%E5%8A%9F%E8%BD%AC%E7%A0%81%E7%9A%84%E7%BB%8F%E5%8E%86/</guid>
-      <description></description>
+      <guid>http://localhost:1313/posts/successful-career-switch-from-engineering-management-to-coding/</guid>
+      <description>&lt;h2 id=&#34;阴差阳错与工程管理的初遇&#34;&gt;阴差阳错：与工程管理的初遇&lt;/h2&gt;&#xA;&lt;p&gt;2016 年 7 月某天，高中班主任打电话来说录取结果时，我心里咯噔一下——第一志愿上海外国语大学的英文翻译专业没考上（现在想想都好笑，一个理科生当初为啥要报这个），最后被调剂到南方一所 211 的&lt;a href=&#34;https://baike.baidu.com/item/%E5%B7%A5%E7%A8%8B%E7%AE%A1%E7%90%86/997591&#34; target=&#34;_blank&#34;&gt;工程管理专业&lt;/a&gt;&#xA;。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

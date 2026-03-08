@@ -9,7 +9,7 @@ tags:
   - git
 draft: false
 slug: "git-commands-i-use-every-day"
-description: "总结日常开发中高频使用的Git命令及其实际应用场景。涵盖功能开发与问题修复的分支操作、使用stash进行代码暂存管理、修改与合并历史Commit的rebase技巧等实用操作指南。"
+description: "Git 命令那么多，真正每天高频敲的也就那几个。这里整理了我平时用的最多的几个命令，包括怎么优雅地建分支、用 stash 救场，还有怎么用 rebase 把提交历史整理得干干净净。"
 keywords:
   - Git
   - 版本控制

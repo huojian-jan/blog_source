@@ -6,7 +6,7 @@
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>技术博客 | huanjian&#39;s blog</title>
+    <title>技术博客 | 火箭的博客</title>
 
     
 
@@ -14,8 +14,8 @@
 
 
 
-<meta name="author" content="" />
-<meta name="description" content="" />
+<meta name="author" content="huojian" />
+<meta name="description" content="huojian 的个人博客，记录技术沉淀、学习笔记与生活碎片。" />
 
 
 
@@ -23,8 +23,9 @@
 
 
 <meta property="og:url" content="http://localhost:1313/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/">
-  <meta property="og:site_name" content="huanjian&#39;s blog">
+  <meta property="og:site_name" content="火箭的博客">
   <meta property="og:title" content="技术博客">
+  <meta property="og:description" content="huojian 的个人博客，记录技术沉淀、学习笔记与生活碎片。">
   <meta property="og:locale" content="zh_Hans">
   <meta property="og:type" content="website">
 
@@ -33,6 +34,7 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="技术博客">
+  <meta name="twitter:description" content="huojian 的个人博客，记录技术沉淀、学习笔记与生活碎片。">
 
 
 
@@ -53,12 +55,15 @@
 
   <body x-data="{
     flip: false,
-  }">
+    isSticky: false,
+  }"
+  x-init="window.addEventListener('scroll', () => { isSticky = window.scrollY > 30 })">
     
     <div id="dream-global-bg"></div>
 
     
-<nav class="mt-4 lg:mt-8 py-4">
+<nav class="sticky top-0 z-30 mt-4 lg:mt-8 py-4"
+  :class="{ 'bg-base-100 shadow-lg dark:border-b dark:border-base-content/30': isSticky }">
 
   
   <div class="container flex justify-between px-4">
@@ -66,14 +71,27 @@
     <section class="flex items-center gap-4">
       <div class="avatar cursor-pointer hover:avatar-online" @click="flip = !flip" title="翻转一下！">
         <div class="h-10 rounded-full">
-          <img src="/" alt="" />
+          <img src="https://github.com/huojian-jan.png" alt="火箭的博客" />
         </div>
       </div>
 
       
+      <div>
+        
+        <a href="http://localhost:1313/" class="text-lg font-semibold cursor-pointer">
+          火箭的博客
+        </a>
+        
+        
+        <div class="text-base-content/60 text-sm">Talent is enduring patience.</div>
+        
+      </div>
+      
     </section>
 
     
+    
+      
     
 
     <div class="dropdown dropdown-end sm:hidden">
@@ -113,6 +131,15 @@
 
 
 
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="https://github.com/huojian-jan" target="_blank" title="GitHub">
+    
+    <ion-icon name="logo-github"></ion-icon>
+    
+    GitHub
+  </a>
+</li>
+
 
 
 
@@ -147,34 +174,26 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-  
-    
-
-
-
 <li>
-  <a class="inline-flex items-center p-2 cursor-pointer" href="https://github.com/huojian-jan" target="_blank" title="GitHub">
-    
-    <ion-icon name="logo-github"></ion-icon>
-    
-    GitHub
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/index.xml" title="RSS">
+    <ion-icon name="logo-rss"></ion-icon>
+    RSS
   </a>
 </li>
 
 
 
-  
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -184,6 +203,8 @@
     <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
       
 
+      
+      
       
       
 
@@ -208,47 +229,6 @@
 
 
 
-
-
-      
-      
-<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/posts" title="归档">
-  <ion-icon class="group-hover:text-primary-content" name="archive"></ion-icon>
-</a>
-
-
-      
-      
-<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/categories" title="所有分类">
-  <ion-icon class="group-hover:text-primary-content" name="grid"></ion-icon>
-</a>
-
-
-      
-      
-<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/tags" title="所有标签">
-  <ion-icon class="group-hover:text-primary-content" name="pricetags"></ion-icon>
-</a>
-
-
-      
-
-      
-      
-
-
-
-
-
-
-
-
-
-  
-    
-
-
-
   
   <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="https://github.com/huojian-jan" target="_blank" title="GitHub">
     <ion-icon class="group-hover:text-primary-content" name="logo-github"></ion-icon>
@@ -257,11 +237,70 @@
 
 
 
-  
-
-
       
 
+      <div class="dropdown dropdown-end dropdown-hover">
+        <div tabindex="0" role="button" class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" aria-label="Select an option">
+          <ion-icon class="group-hover:text-primary-content text-xl" name="menu"></ion-icon>
+        </div>
+        <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-1 shadow-xl">
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="归档">
+    <ion-icon name="archive"></ion-icon>
+    归档
+  </a>
+</li>
+
+
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="所有分类">
+    <ion-icon name="grid"></ion-icon>
+    所有分类
+  </a>
+</li>
+
+
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="所有标签">
+    <ion-icon name="pricetags"></ion-icon>
+    所有标签
+  </a>
+</li>
+
+
+          
+          
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/index.xml" title="RSS">
+    <ion-icon name="logo-rss"></ion-icon>
+    RSS
+  </a>
+</li>
+
+
+          
+
+          
+          
+
+
+
+
+
+
+
+
+
+
+          
+        </ul>
+      </div>
       
     </section>
   </div>
@@ -279,7 +318,7 @@
 
   <div class="md:basis-[200px] lg:basis-[300px] p-4 prose dark:prose-invert">
     <h1 class="text-2xl">技术博客</h1>
-    <p class="text-sm">9篇文章</p>
+    <p class="text-sm">8篇文章</p>
     <div class="flex flex-wrap gap-4 mt-6">
       
 
@@ -296,6 +335,12 @@
       </a>
       
       
+      
+      <a href="/categories/%E6%96%B0%E6%A6%82%E5%BF%B5/" class="badge h-6 no-underline hover:badge-primary">
+        新概念
+      </a>
+      
+      
     </div>
   </div>
   
@@ -308,57 +353,7 @@
       <div class="dream-grid">
         
           <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
-            <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/%E6%96%B0%E6%A6%82%E5%BF%B5%E4%BB%A3%E7%A0%81%E7%9A%84%E5%9C%88%E5%A4%8D%E6%9D%82%E5%BA%A6/">
-  
-  <figure>
-    
-    <img src="https://hbr.org/resources/images/article_assets/2024/12/Dec24_10_1471269743.jpg" alt="代码的圈复杂度" />
-    
-  </figure>
-  
-
-  <div class="card-body">
-    <h2 class="card-title">代码的圈复杂度</h2>
-
-    <p class="date text-base-content/60">
-    
-      <span data-format="luxon">2025-11-09T13:22:19&#43;08:00</span>
-    
-    </p>
-
-    <p>圈复杂度是一种衡量代码复杂度的指标，它可以帮助我们识别出代码中的复杂区域，从而更好地优化代码。圈复杂度越高，代码的复杂度越高，也就越难以阅读和维护。</p>
-
-    
-    <div class="card-actions justify-between items-center mt-4">
-      
-        <div class="flex items-center">
-  
-  <span>@</span>
-  
-
-  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
-  
-    
-      <span itemprop="name">火箭</span>
-    
-  
-  </span>
-</div>
-
-      
-
-      <div class="flex items-center">
-        <ion-icon name="time" class="mr-1"></ion-icon>
-        <span>3分钟阅读</span>
-      </div>
-    </div>
-  </div>
-</a>
-
-          </div>
-        
-          <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
-            <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/wpf%E4%B8%8A%E5%AE%9E%E7%8E%B0%E4%BB%BB%E5%8A%A1%E6%A0%8F%E9%97%AA%E7%83%81/">
+            <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/flash-taskbar-in-wpf/">
   
   <figure>
     
@@ -376,7 +371,7 @@
     
     </p>
 
-    
+    想在 WPF 里实现类似微信来消息时任务栏闪烁的效果？这事还得靠调 Windows API 解决。我封装了一个好用的 C# 工具类，几行代码就能搞定任务栏的高亮提示。
 
     
     <div class="card-actions justify-between items-center mt-4">
@@ -408,7 +403,7 @@
           </div>
         
           <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
-            <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/%E6%88%91%E6%AF%8F%E5%A4%A9%E9%83%BD%E5%9C%A8%E7%94%A8%E7%9A%84git%E5%91%BD%E4%BB%A4/">
+            <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/git-commands-i-use-every-day/">
   
   <figure>
     
@@ -426,7 +421,7 @@
     
     </p>
 
-    
+    Git 命令那么多，真正每天高频敲的也就那几个。这里整理了我平时用的最多的几个命令，包括怎么优雅地建分支、用 stash 救场，还有怎么用 rebase 把提交历史整理得干干净净。
 
     
     <div class="card-actions justify-between items-center mt-4">
@@ -458,7 +453,7 @@
           </div>
         
           <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
-            <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/%E5%BC%82%E5%B8%B8%E6%89%93error%E6%97%A5%E5%BF%97review%E7%9A%84%E6%97%B6%E5%80%99%E8%A2%AB%E5%96%B7%E4%BA%86/">
+            <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/error-log-level-review/">
   
   <figure>
     
@@ -476,7 +471,7 @@
     
     </p>
 
-    
+    代码里捕获到异常就该打 Error 日志吗？最近在 Code Review 时因为这个被吐槽了。查了一下 Stack Overflow 的高赞回答，重新梳理了一下 Error、Warning 和 Info 到底该怎么用。
 
     
     <div class="card-actions justify-between items-center mt-4">
@@ -508,7 +503,7 @@
           </div>
         
           <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
-            <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/cpp%E4%B8%AD%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8F%98%E9%87%8F%E7%9A%84sz%E5%89%8D%E7%BC%80%E6%98%AF%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D/">
+            <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/what-does-sz-prefix-mean-in-cpp/">
   
   <figure>
     
@@ -526,7 +521,7 @@
     
     </p>
 
-    
+    看 UltraVNC 的 C&#43;&#43; 源码时，发现很多字符串变量都带着 sz 前缀。查了下才搞明白，这个代表以零结尾的字符串（zero-terminated string），也算是复习了一把经典的匈牙利命名法。
 
     
     <div class="card-actions justify-between items-center mt-4">
@@ -558,7 +553,7 @@
           </div>
         
           <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
-            <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/windows%E4%B8%8A%E5%AE%9E%E7%8E%B0%E5%AD%90%E8%BF%9B%E7%A8%8B%E9%9A%8F%E7%88%B6%E8%BF%9B%E7%A8%8B%E9%80%80%E5%87%BA%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/">
+            <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/solutions-for-child-process-exiting-with-parent-in-windows/">
   
   <figure>
     
@@ -576,7 +571,7 @@
     
     </p>
 
-    
+    在 Windows 下，主程序崩溃了子进程还在后台跑，是个很烦人的问题。这里总结了三种成熟的解决方案：重定向输入输出、用 Job 对象绑定，以及发信号优雅退出，并附上了 C# 和 C&#43;&#43; 的踩坑代码。
 
     
     <div class="card-actions justify-between items-center mt-4">
@@ -608,7 +603,7 @@
           </div>
         
           <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
-            <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/wpf%E4%B8%AD%E7%9A%84application%E7%B1%BB/">
+            <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/application-class-in-wpf/">
   
   <figure>
     
@@ -626,7 +621,7 @@
     
     </p>
 
-    
+    写 WPF 肯定绕不开 Application 类。这篇文章盘点了它的几个核心属性和控制程序生命周期的关键方法，理清这些，对 WPF 程序的启动和退出流程会有更清晰的认知。
 
     
     <div class="card-actions justify-between items-center mt-4">
@@ -658,7 +653,7 @@
           </div>
         
           <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
-            <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/wpf%E7%A8%8B%E5%BA%8F%E7%9A%84%E4%B8%A4%E7%A7%8D%E5%90%AF%E5%8A%A8%E6%96%B9%E5%BC%8F/">
+            <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/two-startup-methods-of-wpf-application/">
   
   <figure>
     
@@ -676,7 +671,7 @@
     
     </p>
 
-    
+    WPF 程序默认靠 App.xaml 启动，但如果我们想自己接管入口点该怎么办？通过反编译看了下底层原理，其实完全可以自己写个 Main 函数来启动，还能做更多自定义的初始化工作。
 
     
     <div class="card-actions justify-between items-center mt-4">
@@ -708,7 +703,7 @@
           </div>
         
           <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
-            <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/%E6%88%91%E7%94%A8%E5%BD%B1%E5%88%80rpa%E8%AE%A2%E9%98%85%E4%BA%861000&#43;%E7%9A%84%E7%8B%AC%E7%AB%8B%E5%8D%9A%E5%AE%A2%E7%9A%84rss/">
+            <a class="card bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/subscribe-to-1000-independent-blogs-rss-with-rpa/">
   
   <figure>
     
@@ -726,7 +721,7 @@
     
     </p>
 
-    
+    手动订阅 1000 多个独立博客的 RSS 简直是体力活。于是我写了个影刀 RPA 脚本，让它帮我在 InoReader 里自动跑完这上千个订阅流程，省下来的时间刚好能多写两行代码。
 
     
     <div class="card-actions justify-between items-center mt-4">
@@ -771,7 +766,7 @@
 
   <div>
   
-  <p>© 2026 huanjian&#39;s blog</p>
+  <p>© 2026 火箭的博客</p>
   
 
   
@@ -828,11 +823,16 @@
       class="card bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
     >
       <div class="card-body">
-        <div class="card-title">Me</div>
+        <div class="card-title">爱好</div>
 
         <div class="prose dark:prose-invert">
-          <p>你好，我是火箭。火箭是我在在公司和互联网上使用的花名。
-我的主要工作是开发 Windows 客户端软件，技术栈以 WPF + C# 为主。业余时间会折腾一些小项目，通常是 React + FastAPI 的组合，先现生活在杭州，活动范围主要是江浙沪这块。独立博客看得多了，也逐渐被激发了表达欲，注册域名，做了我的独立博客。</p>
+          <ul>
+<li>三国演义：从大二开始听评书版的《三国演义》，现在主要是作为睡前小故事来听(我估计是第七八遍了)</li>
+<li>写代码：没错，写代码也是我的爱好。只要出门超过半天，我基本都会背着笔记本，随时可能进入“编码模式”。</li>
+<li>健身：曾经的爱好。结婚之后就逐渐被抛弃了 🤷,结婚一年涨了10斤。</li>
+<li>看电影：后续可能会写影评。</li>
+<li>探索新事物和工具：准备开一个主题，专门分享我接触到的各种新玩意儿。</li>
+</ul>
 
         </div>
       </div>
@@ -844,15 +844,36 @@
       class="card bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
     >
       <div class="card-body">
-        <div class="card-title">爱好</div>
+        <div class="card-title">关于我</div>
 
         <div class="prose dark:prose-invert">
-          <ul>
-<li>三国演义：从大二开始听评书版的《三国演义》，现在主要是作为睡前小故事来听(我估计是第七八遍了)</li>
-<li>写代码：没错，写代码也是我的爱好。只要出门超过半天，我基本都会背着笔记本，随时可能进入“编码模式”。</li>
-<li>健身：曾经的爱好。结婚之后就逐渐被抛弃了 🤷,结婚一年涨了10斤。</li>
-<li>看电影：后续可能会写影评。</li>
-<li>探索新事物和工具：准备开一个主题，专门分享我接触到的各种新玩意儿。</li>
+          <h3 id="-你好我是-huojian-火箭">👋 你好，我是 huojian (火箭)</h3>
+<p>欢迎来到我的个人博客！建立这个小站的初衷，是想在浩瀚的互联网中拥有一块属于自己的“数字花园”。我经常从各类优秀的博客中汲取养分，现在，我也想成为那个输出和分享的人。</p>
+<p>这里没有刻板的文章更新 KPI，更多的是我个人的技术沉淀、学习笔记以及生活碎片的真实记录。</p>
+<h4 id="-关于我与我的技术栈">👨‍💻 关于我与我的技术栈</h4>
+<p>我是一名客户端软件工程师，日常与代码和系统架构打交道。在技术探索的道路上，我享受解决复杂问题带来的成就感，也喜欢折腾各种能提升幸福感的工具。</p>
+<p>在这里，你可能会看到我分享以下内容：</p>
+<ul>
+<li><strong>💻 开发与架构探讨：</strong> 探讨 WPF/C# 领域的开发经验、代码质量优化，以及诸如客户端热修复 (Hotfix) 系统设计等我在实际项目中遇到并解决的挑战。</li>
+<li><strong>🛠️ 工作流与跨平台折腾：</strong> 记录我游走在 Windows 与 macOS 环境下的效率心得。从外设配置到好用的跨平台开发工具，分享如何打造顺手的生产力环境。</li>
+<li><strong>🐳 自托管与数字生活：</strong> 我是个“自建服务”爱好者。会不定期掉落关于 Docker 部署、云服务器折腾指南，以及如何搭建属于自己的 RSS 阅读环境等教程。</li>
+<li><strong>📝 学习笔记与自我精进：</strong> 记录各种技术学习心得。同时，我也在持续死磕英语，努力提升口语和写作能力，告别“哑巴英语”，相关的学习路径和思考也会记录在这里。</li>
+</ul>
+<h4 id="-我的理念">💡 我的理念</h4>
+
+
+
+  <blockquote>
+    <p><strong>&ldquo;Talent is enduring patience.&rdquo;</strong> (才能即是长久的忍耐)</p>
+  </blockquote>
+
+<p>我相信持续输出的力量。无论是深度的技术解析，还是一个简单的开发踩坑记录，亦或是一篇普通的生活随笔，都是打造个人 IP 与技术影响力的基石。</p>
+<h4 id="-建立连接">📬 建立连接</h4>
+<p>非常高兴能在这里与同样喜欢写代码、喜欢阅读的你相遇。如果你对我的文章有共鸣，或者想交流技术与生活，欢迎随时找我：</p>
+<ul>
+<li><strong>GitHub:</strong> <a href="https://github.com/huojian-jan" target="_blank">@huojian-jan</a>
+</li>
+<li><strong>RSS 订阅:</strong> 欢迎通过博客右上角的 RSS 订阅我的最新文章。</li>
 </ul>
 
         </div>
@@ -917,7 +938,7 @@
 
   <div>
   
-  <p>© 2026 huanjian&#39;s blog</p>
+  <p>© 2026 火箭的博客</p>
   
 
   
@@ -966,8 +987,8 @@
     </div>
 
     <script>
-  window.lightTheme =  null 
-  window.darkTheme =  null 
+  window.lightTheme = "emerald"
+  window.darkTheme = "forest"
 </script>
 
 

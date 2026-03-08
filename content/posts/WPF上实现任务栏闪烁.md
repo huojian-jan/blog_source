@@ -10,7 +10,7 @@ tags:
   - WPF
 draft: false
 slug: "flash-taskbar-in-wpf"
-description: "分享在WPF应用中调用Windows API实现任务栏闪烁提醒功能的方法。文章提供了封装好的C#工具类代码，帮助开发者快速实现类似微信或飞书收到新消息时的任务栏闪烁效果。"
+description: "想在 WPF 里实现类似微信来消息时任务栏闪烁的效果？这事还得靠调 Windows API 解决。我封装了一个好用的 C# 工具类，几行代码就能搞定任务栏的高亮提示。"
 keywords:
   - WPF
   - 任务栏闪烁
