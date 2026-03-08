@@ -8,6 +8,14 @@ categories:
 tags:
   - c++
 draft: false
+slug: "what-does-sz-prefix-mean-in-cpp"
+description: "介绍C++源码（如UltraVNC）中常见的字符串变量命名惯例：sz前缀的含义及其由来。解析sz代表zero-terminated string（以零结尾的字符串），帮助开发者更好地理解匈牙利命名法。"
+keywords:
+  - C++
+  - 变量命名
+  - sz前缀
+  - 匈牙利命名法
+  - 字符串
 ---
 
 <!--more-->

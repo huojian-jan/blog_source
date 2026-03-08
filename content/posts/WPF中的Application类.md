@@ -8,6 +8,13 @@ categories:
 tags:
   - WPF
 draft: false
+slug: "application-class-in-wpf"
+description: "深入解析WPF中的Application类，详细介绍其核心属性（如Current、MainWindow、Properties等）、主要方法（如生命周期相关的OnActivated、OnExit等）以及WPF程序的完整生命周期。"
+keywords:
+  - WPF
+  - Application类
+  - WPF生命周期
+  - C#
 ---
 <!--more-->
 

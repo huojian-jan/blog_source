@@ -7,7 +7,15 @@ categories:
   - 技术博客
 tags:
   - code review
-draft: flase
+draft: false
+slug: "error-log-level-review"
+description: "分享一次关于代码中异常捕获时日志级别的Code Review讨论。探讨了何时应该使用Error、Warning和Info级别的日志，并结合Stack Overflow高票回答提供了实用的日志级别使用最佳实践。"
+keywords:
+  - 日志级别
+  - Code Review
+  - Error日志
+  - 最佳实践
+  - 异常处理
 ---
 
 <!--more-->

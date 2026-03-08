@@ -8,6 +8,14 @@ categories:
 tags:
   - WPF
 draft: false
+slug: "two-startup-methods-of-wpf-application"
+description: "详细介绍WPF程序的两种启动方式：默认的App.xaml方式和带有Main函数的自定义启动方式。通过反编译源码分析其内部原理，并对比两种方式的灵活性和适用场景。"
+keywords:
+  - WPF
+  - WPF启动方式
+  - App.xaml
+  - STAThread
+  - C#
 ---
 
 <!--more-->

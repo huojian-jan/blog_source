@@ -4,13 +4,20 @@ date: 2024-12-15
 author: 火箭
 cover: https://cdn.pixabay.com/photo/2023/09/15/19/41/ai-generated-8255463_1280.jpg
 categories:
-  - 技术博客"
+  - 技术博客
 tags:
   - RPA
   - 博客
 # nolastmod: true
 # math: true
 draft: false
+slug: "subscribe-to-1000-independent-blogs-rss-with-rpa"
+description: "介绍如何使用影刀RPA自动化工具，结合InoReader，批量订阅超过1000个优秀的中文独立博客RSS源。分享了具体的自动化脚本开发思路和步骤，大幅节省手动订阅时间。"
+keywords:
+  - RPA
+  - 博客订阅
+  - RSSHub
+  - 自动化
 ---
 
 <!--more-->

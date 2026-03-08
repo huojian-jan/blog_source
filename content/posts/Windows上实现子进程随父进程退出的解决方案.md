@@ -8,6 +8,14 @@ categories:
 tags:
   - windows技术
 draft: false
+slug: "solutions-for-child-process-exiting-with-parent-in-windows"
+description: "探讨在Windows系统下实现子进程随父进程退出的几种成熟解决方案，包括标准输入输出重定向、使用Job对象关联进程组，以及发送Ctrl+C信号实现优雅退出，并提供了C++和C#的代码示例。"
+keywords:
+  - Windows进程管理
+  - 子进程退出
+  - Job对象
+  - 进程重定向
+  - C++
 ---
 
 <!--more-->

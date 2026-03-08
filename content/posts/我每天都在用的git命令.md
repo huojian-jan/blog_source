@@ -7,7 +7,15 @@ categories:
   - 技术博客
 tags:
   - git
-draft: flase
+draft: false
+slug: "git-commands-i-use-every-day"
+description: "总结日常开发中高频使用的Git命令及其实际应用场景。涵盖功能开发与问题修复的分支操作、使用stash进行代码暂存管理、修改与合并历史Commit的rebase技巧等实用操作指南。"
+keywords:
+  - Git
+  - 版本控制
+  - Git命令
+  - 代码管理
+  - rebase
 ---
 
 
