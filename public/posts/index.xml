@@ -6,8 +6,15 @@
     <description>Recent content in Posts on 火箭的博客</description>
     <generator>Hugo</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Fri, 19 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Dec 2025 18:46:23 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我的电子产品清单</title>
+      <link>http://localhost:1313/posts/%E6%88%91%E7%9A%84%E7%94%B5%E5%AD%90%E4%BA%A7%E5%93%81%E6%B8%85%E5%8D%95/</link>
+      <pubDate>Sun, 28 Dec 2025 18:46:23 +0800</pubDate>
+      <guid>http://localhost:1313/posts/%E6%88%91%E7%9A%84%E7%94%B5%E5%AD%90%E4%BA%A7%E5%93%81%E6%B8%85%E5%8D%95/</guid>
+      <description>&lt;p&gt;之前看到不少博主分享自己的数码装备，我从工作以来也陆陆续续添置了不少。今天写篇文章，盘点一下我的电子产品清单。以后家里添了新设备，也会在这里持续更新。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>我意识到我有收集癖并开始克服它</title>
       <link>http://localhost:1313/posts/overcome-digital-hoarding/</link>
@@ -41,7 +48,7 @@
       <link>http://localhost:1313/posts/successful-career-switch-from-engineering-management-to-coding/</link>
       <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/successful-career-switch-from-engineering-management-to-coding/</guid>
-      <description>&lt;h2 id=&#34;阴差阳错与工程管理的初遇&#34;&gt;阴差阳错：与工程管理的初遇&lt;/h2&gt;&#xA;&lt;p&gt;2016 年 7 月某天，高中班主任打电话来说录取结果时，我心里咯噔一下——第一志愿上海外国语大学的英文翻译专业没考上（现在想想都好笑，一个理科生当初为啥要报这个），最后被调剂到南方一所 211 的&lt;a href=&#34;https://baike.baidu.com/item/%E5%B7%A5%E7%A8%8B%E7%AE%A1%E7%90%86/997591&#34; target=&#34;_blank&#34;&gt;工程管理专业&lt;/a&gt;&#xA;。&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;阴差阳错与工程管理的初遇&#34;&gt;阴差阳错：与工程管理的初遇&lt;/h2&gt;&#xA;&lt;p&gt;2016 年 7 月某天，高中班主任打电话来说录取结果时，我心里咯噔一下——第一志愿上海外国语大学的英文翻译专业没考上（现在想想都好笑，一个理科生当初为啥要报这个），最后被调剂到南方一所 211 的&lt;a href=&#34;https://baike.baidu.com/item/%E5%B7%A5%E7%A8%8B%E7%AE%A1%E7%90%86/997591&#34;&gt;工程管理专业&lt;/a&gt;。&lt;/p&gt;</description>
     </item>
     <item>
       <title>WPF上实现任务栏闪烁</title>
