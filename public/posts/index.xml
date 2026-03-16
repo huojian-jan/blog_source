@@ -100,11 +100,11 @@
       <description></description>
     </item>
     <item>
-      <title>用RPA订阅了1000&#43;的独立博客的RSS</title>
+      <title>用 RPA 自动化订阅 1000&#43; 独立博客 RSS，解放双手</title>
       <link>http://localhost:1313/posts/subscribe-to-1000-independent-blogs-rss-with-rpa/</link>
       <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/subscribe-to-1000-independent-blogs-rss-with-rpa/</guid>
-      <description></description>
+      <description>&lt;p&gt;很早之前，我在 GitHub 上发现了一个宝藏项目：&lt;a href=&#34;https://github.com/timqian/chinese-independent-blogs&#34;&gt;中文独立博客列表&lt;/a&gt;，里面汇集了大量高质量的独立博客。通过这个 Repo，我发掘了许多计算机界大佬的自留地，比如&lt;a href=&#34;https://www.yinwang.org/&#34;&gt;王垠的博客&lt;/a&gt;、&lt;a href=&#34;https://greatdk.com&#34;&gt;王登科-DK博客&lt;/a&gt;、&lt;a href=&#34;http://macshuo.com&#34;&gt;MacTalk-池建强的随想录&lt;/a&gt;等。&lt;/p&gt;&#xA;&lt;p&gt;起初，我把这些博客都塞进浏览器的书签文件夹里，每当闲暇时，就像“批阅奏章”一样逐个点开，看看大佬们有没有更新。但这显然不是一个高效的阅读方式。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
