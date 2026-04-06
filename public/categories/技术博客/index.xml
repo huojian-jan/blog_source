@@ -6,7 +6,7 @@
     <description>Recent content in 技术博客 on 火箭的博客</description>
     <generator>Hugo</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Mon, 06 Apr 2026 13:16:24 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 13:24:49 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我的RAG扫盲</title>
@@ -14,13 +14,6 @@
       <pubDate>Sun, 05 Apr 2026 10:39:37 +0800</pubDate>
       <guid>http://localhost:1313/my-rag-primer/</guid>
       <description>&lt;p&gt;最近在做 AI Agent 项目，一下子接触到了很多新的专业术语。很多术语我都停留在“大概知道是干嘛的”这个层次，真要让我解释清楚它是怎么工作的，我其实说不明白。&lt;/p&gt;&#xA;&lt;p&gt;所以我准备 &lt;strong&gt;各个击破&lt;/strong&gt;。每个重要的概念，做一个 toy project，自己跑一遍整个流程。&lt;/p&gt;&#xA;&lt;p&gt;RAG 是我的第一个学习目标。RAG 听过很多遍了，有些是同事说起的，有些是在 B 站看到的，甚至在抖音的评论区也看过，可见这个技术的火热程度。学习之前，我对 RAG 的理解停留在“做知识库”这个层面。&lt;/p&gt;&#xA;&lt;p&gt;所以这篇文章主要记录两件事：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;我是怎么一步步把 RAG 的主流程搞明白的&lt;/li&gt;&#xA;&lt;li&gt;我是怎么基于自己的博客，做出一个最小可运行的 toy RAG 项目的&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;项目地址先放这：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;GitHub: &lt;a href=&#34;https://github.com/huojian-jan/blog-rag-lab&#34;&gt;https://github.com/huojian-jan/blog-rag-lab&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>我的RAG扫盲</title>
-      <link>http://localhost:1313/my-rag-primer/</link>
-      <pubDate>Sun, 05 Apr 2026 10:39:37 +0800</pubDate>
-      <guid>http://localhost:1313/my-rag-primer/</guid>
-      <description>&lt;p&gt;最近在做 AI Agent 项目，一下子接触到了很多新的专业术语。很多术语我都停留在“大概知道是干嘛的”这个层次，真要让我解释清楚它是怎么工作的，我其实说不明白。&lt;/p&gt;</description>
     </item>
     <item>
       <title>WPF上实现任务栏闪烁</title>

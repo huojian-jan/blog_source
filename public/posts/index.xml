@@ -6,7 +6,7 @@
     <description>Recent content in Posts on 火箭的博客</description>
     <generator>Hugo</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Mon, 06 Apr 2026 13:16:24 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 13:24:49 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我的RAG扫盲</title>
@@ -16,95 +16,11 @@
       <description>&lt;p&gt;最近在做 AI Agent 项目，一下子接触到了很多新的专业术语。很多术语我都停留在“大概知道是干嘛的”这个层次，真要让我解释清楚它是怎么工作的，我其实说不明白。&lt;/p&gt;&#xA;&lt;p&gt;所以我准备 &lt;strong&gt;各个击破&lt;/strong&gt;。每个重要的概念，做一个 toy project，自己跑一遍整个流程。&lt;/p&gt;&#xA;&lt;p&gt;RAG 是我的第一个学习目标。RAG 听过很多遍了，有些是同事说起的，有些是在 B 站看到的，甚至在抖音的评论区也看过，可见这个技术的火热程度。学习之前，我对 RAG 的理解停留在“做知识库”这个层面。&lt;/p&gt;&#xA;&lt;p&gt;所以这篇文章主要记录两件事：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;我是怎么一步步把 RAG 的主流程搞明白的&lt;/li&gt;&#xA;&lt;li&gt;我是怎么基于自己的博客，做出一个最小可运行的 toy RAG 项目的&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;项目地址先放这：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;GitHub: &lt;a href=&#34;https://github.com/huojian-jan/blog-rag-lab&#34;&gt;https://github.com/huojian-jan/blog-rag-lab&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
-      <title>多模态模型是如何理解图片输入的</title>
-      <link>http://localhost:1313/posts/%E5%A4%9A%E6%A8%A1%E6%80%81%E6%A8%A1%E5%9E%8B%E6%98%AF%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%E5%9B%BE%E7%89%87%E8%BE%93%E5%85%A5%E7%9A%84/</link>
-      <pubDate>Sun, 05 Apr 2026 10:35:19 +0800</pubDate>
-      <guid>http://localhost:1313/posts/%E5%A4%9A%E6%A8%A1%E6%80%81%E6%A8%A1%E5%9E%8B%E6%98%AF%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%E5%9B%BE%E7%89%87%E8%BE%93%E5%85%A5%E7%9A%84/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>我买了一辆自行车做上下班代步</title>
       <link>http://localhost:1313/posts/bike-commuting-daily/</link>
       <pubDate>Mon, 23 Mar 2026 12:10:29 +0800</pubDate>
       <guid>http://localhost:1313/posts/bike-commuting-daily/</guid>
       <description>&lt;p&gt;因为还没买房，所以我每次换工作，基本都会顺手换个房子，尽量搬到公司附近住。这样一来，我的通勤距离这些年一直都不算远，差不多都在 5 公里以内，所以平时上班也一直是骑电动车。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>我的工作桌面介绍</title>
-      <link>http://localhost:1313/posts/%E6%88%91%E7%9A%84%E5%B7%A5%E4%BD%9C%E6%A1%8C%E9%9D%A2%E4%BB%8B%E7%BB%8D/</link>
-      <pubDate>Sun, 22 Mar 2026 16:14:53 +0800</pubDate>
-      <guid>http://localhost:1313/posts/%E6%88%91%E7%9A%84%E5%B7%A5%E4%BD%9C%E6%A1%8C%E9%9D%A2%E4%BB%8B%E7%BB%8D/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>我的第一个MCP项目</title>
-      <link>http://localhost:1313/posts/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AAmcp%E9%A1%B9%E7%9B%AE/</link>
-      <pubDate>Sun, 22 Mar 2026 16:05:50 +0800</pubDate>
-      <guid>http://localhost:1313/posts/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AAmcp%E9%A1%B9%E7%9B%AE/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>深度思考的方式完全消除了我的焦虑</title>
-      <link>http://localhost:1313/posts/%E6%B7%B1%E5%BA%A6%E6%80%9D%E8%80%83%E7%9A%84%E6%96%B9%E5%BC%8F%E5%AE%8C%E5%85%A8%E6%B6%88%E9%99%A4%E4%BA%86%E6%88%91%E7%9A%84%E7%84%A6%E8%99%91/</link>
-      <pubDate>Sun, 22 Mar 2026 16:03:53 +0800</pubDate>
-      <guid>http://localhost:1313/posts/%E6%B7%B1%E5%BA%A6%E6%80%9D%E8%80%83%E7%9A%84%E6%96%B9%E5%BC%8F%E5%AE%8C%E5%85%A8%E6%B6%88%E9%99%A4%E4%BA%86%E6%88%91%E7%9A%84%E7%84%A6%E8%99%91/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>深度更重要还是广度</title>
-      <link>http://localhost:1313/posts/%E6%B7%B1%E5%BA%A6%E6%9B%B4%E9%87%8D%E8%A6%81%E8%BF%98%E6%98%AF%E5%B9%BF%E5%BA%A6/</link>
-      <pubDate>Sun, 22 Mar 2026 15:57:58 +0800</pubDate>
-      <guid>http://localhost:1313/posts/%E6%B7%B1%E5%BA%A6%E6%9B%B4%E9%87%8D%E8%A6%81%E8%BF%98%E6%98%AF%E5%B9%BF%E5%BA%A6/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>从被动输入到主动输出的转换</title>
-      <link>http://localhost:1313/posts/%E4%BB%8E%E8%A2%AB%E5%8A%A8%E8%BE%93%E5%85%A5%E5%88%B0%E4%B8%BB%E5%8A%A8%E8%BE%93%E5%87%BA%E7%9A%84%E8%BD%AC%E6%8D%A2/</link>
-      <pubDate>Sun, 22 Mar 2026 15:56:33 +0800</pubDate>
-      <guid>http://localhost:1313/posts/%E4%BB%8E%E8%A2%AB%E5%8A%A8%E8%BE%93%E5%85%A5%E5%88%B0%E4%B8%BB%E5%8A%A8%E8%BE%93%E5%87%BA%E7%9A%84%E8%BD%AC%E6%8D%A2/</guid>
-      <description>&lt;p&gt;讲解，培养一个输出型爱好的好处。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>我把主力机从windows换成了macbook</title>
-      <link>http://localhost:1313/posts/%E6%88%91%E6%8A%8A%E4%B8%BB%E5%8A%9B%E6%9C%BA%E4%BB%8Ewindows%E6%8D%A2%E6%88%90%E4%BA%86macbook/</link>
-      <pubDate>Sun, 22 Mar 2026 15:54:53 +0800</pubDate>
-      <guid>http://localhost:1313/posts/%E6%88%91%E6%8A%8A%E4%B8%BB%E5%8A%9B%E6%9C%BA%E4%BB%8Ewindows%E6%8D%A2%E6%88%90%E4%BA%86macbook/</guid>
-      <description>&lt;p&gt;我的工作岗位是 Windows 开发工程师，常用的技术栈是 WPF、C#、.NET和其他的 Windows 相关的技术。所以我的主力机是 Windows，甚至我自己组装了一台高性能的 PC 作为我的主力机器，公司发的笔记本只是在开会的时候使用。后面公司给每个人配了 Cursor账号，后面我为了全面拥抱 AI,抛弃了我最熟悉的 Visual Studio+Resharper 的工作方式，换到了 Cursor 上，在不需要写 UI 的时候我很少回打开 Visual Studio,甚至调试的工作也都放在 Cursor 上完成了。后来，公司调整了组织架构，我被分配在业务组，写UI 的机会也很少了，所以我后面基本上就不打开Visual Studio 了。因为 Cursor 是基于 vscode 开发的，换到 Cursor 之后，之前的很多需求，其实都可以通过几个插件的组合来解决，快捷键也重新调教了一番，算是比较顺手了。&#xA;回老家过年的时候，我带上了我平时很少用的 M1 Macbook Air,然后这段用 Macbook 的这段时间，我突然萌生了把主力机换成 Macbook 的念头。我在火车上，等飞机的一些碎片时间搜索了相关的技术方案，怎么做到主力机器换成 Macbook 之后，如何完成我的本职工作，会不会影响我的工作效率。回来开工之后，我就带着我的 Macbook Air 去上班了。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>我的求学经历</title>
-      <link>http://localhost:1313/posts/%E6%88%91%E7%9A%84%E6%B1%82%E5%AD%A6%E7%BB%8F%E5%8E%86/</link>
-      <pubDate>Sun, 22 Mar 2026 15:53:35 +0800</pubDate>
-      <guid>http://localhost:1313/posts/%E6%88%91%E7%9A%84%E6%B1%82%E5%AD%A6%E7%BB%8F%E5%8E%86/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>我从父辈身上看到了自己的影子</title>
-      <link>http://localhost:1313/posts/%E6%88%91%E4%BB%8E%E7%88%B6%E8%BE%88%E8%BA%AB%E4%B8%8A%E7%9C%8B%E5%88%B0%E4%BA%86%E8%87%AA%E5%B7%B1%E7%9A%84%E5%BD%B1%E5%AD%90/</link>
-      <pubDate>Fri, 20 Mar 2026 19:47:23 +0800</pubDate>
-      <guid>http://localhost:1313/posts/%E6%88%91%E4%BB%8E%E7%88%B6%E8%BE%88%E8%BA%AB%E4%B8%8A%E7%9C%8B%E5%88%B0%E4%BA%86%E8%87%AA%E5%B7%B1%E7%9A%84%E5%BD%B1%E5%AD%90/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>TDD介绍</title>
-      <link>http://localhost:1313/posts/tdd%E4%BB%8B%E7%BB%8D/</link>
-      <pubDate>Fri, 20 Mar 2026 19:45:23 +0800</pubDate>
-      <guid>http://localhost:1313/posts/tdd%E4%BB%8B%E7%BB%8D/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>深入理解C#中的异步调用</title>
-      <link>http://localhost:1313/posts/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3c%23%E4%B8%AD%E7%9A%84%E5%BC%82%E6%AD%A5%E8%B0%83%E7%94%A8/</link>
-      <pubDate>Fri, 20 Mar 2026 19:42:59 +0800</pubDate>
-      <guid>http://localhost:1313/posts/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3c%23%E4%B8%AD%E7%9A%84%E5%BC%82%E6%AD%A5%E8%B0%83%E7%94%A8/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>CodeReview最佳实践</title>
-      <link>http://localhost:1313/posts/codereview%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/</link>
-      <pubDate>Sun, 15 Mar 2026 23:27:24 +0800</pubDate>
-      <guid>http://localhost:1313/posts/codereview%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.kevinlondon.com/2015/05/05/code-review-best-practices/&#34;&gt;https://www.kevinlondon.com/2015/05/05/code-review-best-practices/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>作为WPF开发者，我把主力机换成了MacBook</title>
