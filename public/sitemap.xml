@@ -2,25 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/ai/</loc>
+    <lastmod>2026-04-12T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/how-ai-understands-images/</loc>
+    <lastmod>2026-04-12T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-04-12T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-04-12T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-04-12T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/vision-transformer/</loc>
+    <lastmod>2026-04-12T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/</loc>
+    <lastmod>2026-04-12T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-04-12T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2026-04-12T10:00:00+08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/ai-agent/</loc>
     <lastmod>2026-04-06T13:24:49+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-04-06T13:24:49+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-04-06T13:24:49+08:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/rag/</loc>
-    <lastmod>2026-04-06T13:24:49+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-04-06T13:24:49+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-04-06T13:24:49+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2026-04-06T13:24:49+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/my-rag-primer/</loc>
