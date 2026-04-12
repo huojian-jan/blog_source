@@ -1,7 +1,7 @@
 ---
 title: CSharp是如何处理钻石依赖关系的
-date: 2025-09-12T13:23:46+08:00
-lastmod: 2025-09-12T13:23:46+08:00
+date: 2025-09-12
+lastmod: 2025-09-12
 author: Author Name
 # avatar: /img/author.jpg
 # authorlink: https://author.site

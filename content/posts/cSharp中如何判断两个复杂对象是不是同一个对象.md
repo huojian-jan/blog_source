@@ -1,7 +1,7 @@
 ---
 title: CSharp中如何判断两个复杂对象是不是同一个对象
-date: 2025-09-12T13:09:53+08:00
-lastmod: 2025-09-12T13:09:53+08:00
+date: 2025-09-12
+lastmod: 2025-09-12
 author: Author Name
 # avatar: /img/author.jpg
 # authorlink: https://author.site

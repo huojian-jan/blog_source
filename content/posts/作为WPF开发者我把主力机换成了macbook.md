@@ -1,6 +1,6 @@
 ---
 title: "作为WPF开发者，我把主力机换成了MacBook"
-date: 2026-03-08T18:45:04+08:00
+date: 2026-03-08
 author: 火箭
 categories:
   - 日常分享
@@ -61,9 +61,14 @@ keywords:
 当我把这套工作流验证得差不多以后，我就把公司配的 Windows 本换成了 MacBook Pro。换机过程还比较有趣。我问了行政同学，他说可以把 Windows 本换成 MacBook，但现在库存里只有 Intel 芯片的机器。我就没换，说等有了 M 芯片的机器再喊我一声。没过多久，行政同学说有了 M5 芯片的 MacBook Pro，可以申请了，我立马就申请了。不得不说，M5 的 MacBook Pro 是真香。
 
 ## MacBook 非常适合探索 AI 相关的技术
-基于 MacBook 类 Unix 的设计，它确实非常适合探索一些新的 AI 技术栈。有时候我在 Windows 上光是配环境就要花很长时间，但在 Mac 上可能只要几行命令，我就可以把服务跑起来。因为现在做的是 AI 相关的项目，很少写 WPF 相关的代码了，所以我用 MacBook 也越来越顺手了。尤其是 MacBook 的显示屏，看着确实很舒服。
+
+Mac 是类 Unix 系统，有时候我在 Windows 上光是配环境就要折腾很长时间，但在 Mac 上可能只要几行命令，服务就跑起来了。现在做的是 AI 相关的项目，WPF 写得越来越少，MacBook 用起来也越来越顺。还有一点就是显示屏——看着真的很舒服，这个不是玄学。
 
 ## 双机的痛点
-1. Command 键、Option 键和 Windows 上 Alt、Win 键的映射关系会让人分裂。
-2. macOS 的很多设计和 Windows 不一样，需要一个适应的过程。
+
+当然也不是没有代价。
+
+用了一段时间之后，最让我难受的其实是键位。Command、Option 和 Windows 上的 Alt、Win 键对应关系搞得人头大，有时候手切换到 Mac 这边，脑子还在 Windows 那套肌肉记忆里，就容易按错。
+
+另外 macOS 有些设计和 Windows 思路不一样，需要一段时间去习惯。不过我现在已经基本适应了，偶尔回去用 Windows 反而会不习惯了。
 

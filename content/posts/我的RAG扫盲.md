@@ -1,7 +1,7 @@
 ---
 title: 我的RAG扫盲
-date: 2026-04-05T10:39:37+08:00
-lastmod: 2026-04-06T13:24:49+08:00
+date: 2026-04-05
+lastmod: 2026-04-06
 author: 火箭
 categories:
   - 技术博客

@@ -1,7 +1,7 @@
 ---
 title: 【新概念】CDN的工作原理
-date: 2025-09-12T13:21:39+08:00
-lastmod: 2025-09-12T13:21:39+08:00
+date: 2025-09-12
+lastmod: 2025-09-12
 author: Author Name
 # avatar: /img/author.jpg
 # authorlink: https://author.site

@@ -19,7 +19,7 @@ hasCJKLanguage = true
   darkTheme = "forest"
 
   rss = true
-  utterancesRepo = "huojian-jan/huojian-jan.github.io"
+  utterancesRepo = "giscus"  # 触发评论区渲染，实际使用 layouts/partials/commentSystems.html 中的 Giscus
 
   # options
   stickyNav = true
